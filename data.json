@@ -1,0 +1,44 @@
+[
+    {
+        "id": 1,
+        "nombre": "Gel Roctane Gu", 
+        "carbos": 21,
+        "um": "Sachet",
+        "img": "img/Gel_gu.webp"
+    },
+    {
+        "id": 2,
+        "nombre": "Hydromax",
+        "carbos": 60,
+        "um": "500 ml",
+        "img": "img/Hydromax.jpg"
+    },
+    {
+        "id": 3,
+        "nombre": "Dátil",
+        "carbos":  5,
+        "um":  "Unidad",
+        "img": "img/Datiles.jpg"
+    },
+    {
+        "id": 4,
+        "nombre": "Membrillito", 
+        "carbos":  20,
+        "um":  "Unidad 30 gr",
+        "img": "img/Membrillo.jpg"
+    },
+    {
+        "id": 5,
+        "nombre": "Anana", 
+        "carbos": 10,
+        "um": "Rodaja de 30 gr",
+        "img": "img/Anana.jpg"
+    },
+    {
+        "id": 6,
+        "nombre": "Mani",
+        "carbos": 4,
+        "um": "Puñado de 30 gr",
+        "img": "img/Mani.jpg"
+    }
+]
