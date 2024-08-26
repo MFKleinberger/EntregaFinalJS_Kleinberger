@@ -36,11 +36,12 @@ header p {
 }
 
 #total-carbohidratos {
-    padding: 10px;
-    font-size: .8rem;
+    padding: 5px;
+    margin-right: 10px;
+    font-size: 1rem;
     font-weight: bold;
     color: #333;
-    width: 125px;
+    width: 130px;
 }
 
 #boton-limpiar, #boton-mostrar {
@@ -49,7 +50,7 @@ header p {
     border: none;
     padding: 5px;
     border-radius: 5px;
-    font-size: .8rem;
+    font-size: 1rem;
     margin: 5px;
     height: 50px;
     width: 85px;

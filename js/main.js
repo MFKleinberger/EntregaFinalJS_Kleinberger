@@ -112,12 +112,12 @@ function crearBarraCarrito() {
 
     const botonLimpiar = document.createElement("button");
     botonLimpiar.id = "boton-limpiar";
-    botonLimpiar.innerText = "Limpiar carbs";
+    botonLimpiar.innerText = "Limpiar";
     botonLimpiar.onclick = limpiarCarrito;
 
     const botonMostrar = document.createElement("button");
     botonMostrar.id = "boton-mostrar";
-    botonMostrar.innerText = "Resumen carbs";
+    botonMostrar.innerText = "Resumen";
     botonMostrar.onclick = mostrarCarrito;
 
     barra.append(totalCarbohidratos);
@@ -196,7 +196,7 @@ titulo.innerText = "Trail Running";
 subTitulo.innerText = "Calculadora de Carbohidratos";
 
 const parrafo = document.createElement("p");
-parrafo.innerText = "Para cada hora de carrera se estima una necesidad de reposición de 70 a 90 gramos de carbohidratos.";
+parrafo.innerText = "Agregá alimentos para 1(una) hora de carrera\n(Se recomienda 70 a 90 gramos de carbohidratos).";
 
 header.append(titulo);
 header.append(subTitulo);
@@ -210,9 +210,7 @@ subirLink.className = 'subir';
 
 const subirIcon = document.createElement('i');
 subirIcon.className = 'fa-solid fa-chevron-up';
-
 subirLink.append(subirIcon);
-
 document.body.append(subirLink);
 
 const whatsappLink = document.createElement('a');
@@ -222,13 +220,8 @@ whatsappLink.target = '_blank';
 
 const whatsappIcon = document.createElement('i');
 whatsappIcon.className = 'fa-brands fa-whatsapp';
-
 whatsappLink.append(whatsappIcon);
-
 document.body.append(whatsappLink);
-
-
-
 
 fetch('../data.json')
     .then(response =>response.json())
@@ -240,4 +233,3 @@ fetch('../data.json')
             alimentos.forEach(el => crearCard(el));
         }, 2000);
     });
-
