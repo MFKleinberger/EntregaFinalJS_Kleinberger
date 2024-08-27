@@ -1,6 +1,7 @@
 body {
     background-image: url('../img/FotoLR1.jpg');
-    background-size: border-box;
+    background-size: center;
+    background-repeat: no-repeat;
     background-position: center;
     text-align: center;
     color:#eaeef2;
@@ -63,6 +64,7 @@ header p {
     background-image: url('../img/FotoRef1.jpg');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 .card {
@@ -126,7 +128,6 @@ header p {
     font-size: 0.8rem;
 }
 
-
 .subir {
     height: 30px;
     width: 30px;
@@ -159,6 +160,7 @@ header p {
     font-size: 20px;
     box-shadow: 0 0 5px 5px #fdfffd;
 }
+
 .cafecito {
     height: 30px;
     width: 30px;
