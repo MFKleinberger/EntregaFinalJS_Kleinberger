@@ -223,6 +223,20 @@ whatsappIcon.className = 'fa-brands fa-whatsapp';
 whatsappLink.append(whatsappIcon);
 document.body.append(whatsappLink);
 
+// cafecito inicia
+
+const cafecitoLink = document.createElement('a');
+cafecitoLink.href = 'https://cafecito.app/kaeme1';
+cafecitoLink.className = 'cafecito';
+cafecitoLink.target = '_blank';
+
+const cafecitoIcon = document.createElement('i');
+cafecitoIcon.className = 'fa-solid fa-mug-hot';
+cafecitoLink.append(cafecitoIcon);
+document.body.append(cafecitoLink);
+
+// cafecito inicia
+
 fetch('../data.json')
     .then(response =>response.json())
     .then(alimentos => {
