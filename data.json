@@ -29,14 +29,14 @@
     },
     {
         "id": 5,
-        "nombre": "Anana", 
+        "nombre": "Ananá", 
         "carbos": 10,
         "um": "Rodaja de 30 gr",
         "img": "img/Anana.jpg"
     },
     {
         "id": 6,
-        "nombre": "Mani",
+        "nombre": "Maní",
         "carbos": 4,
         "um": "Puñado de 30 gr",
         "img": "img/Mani.jpg"
