@@ -15,30 +15,72 @@
     },
     {
         "id": 3,
-        "nombre": "Dátil",
-        "carbos":  5,
-        "um":  "Unidad",
-        "img": "img/Datiles.jpg"
+        "nombre": "Aceitunas", 
+        "carbos": 0.1,
+        "um": "Unidad",
+        "img": "img/aceitunas.png"
     },
     {
         "id": 4,
-        "nombre": "Membrillito", 
-        "carbos":  20,
-        "um":  "Unidad 30 gr",
-        "img": "img/Membrillo.jpg"
-    },
-    {
-        "id": 5,
         "nombre": "Ananá", 
         "carbos": 10,
         "um": "Rodaja de 30 gr",
         "img": "img/Anana.jpg"
     },
     {
+        "id": 5,
+        "nombre": "Banana", 
+        "carbos": 9,
+        "um": "1/3 (tercio)",
+        "img": "img/banana.jpg"
+    },
+    {
         "id": 6,
+        "nombre": "Dátil",
+        "carbos":  5,
+        "um":  "Unidad",
+        "img": "img/Datiles.jpg"
+    },
+    {
+        "id": 7,
+        "nombre": "Gomitas", 
+        "carbos": 4,
+        "um": "Unidad",
+        "img": "img/gomitas.jpg"
+    },
+    {
+        "id": 8,
         "nombre": "Maní",
         "carbos": 4,
         "um": "Puñado de 30 gr",
         "img": "img/Mani.jpg"
+    },
+    {
+        "id": 9,
+        "nombre": "Membrillito", 
+        "carbos":  20,
+        "um":  "Unidad 30 gr",
+        "img": "img/Membrillo.jpg"
+    },
+    {
+        "id": 10,
+        "nombre": "Papa hervida", 
+        "carbos":  20,
+        "um":  "100 gr",
+        "img": "img/papaHervida.jpg"
+    },
+    {
+        "id": 11,
+        "nombre": "Queso feta", 
+        "carbos": 10,
+        "um": "1 feta de 10 gr",
+        "img": "img/quesoFeta.webp"
+    },
+    {
+        "id": 12,
+        "nombre": "Twistos", 
+        "carbos": 15,
+        "um": "25 gr (3/4 taza)",
+        "img": "img/twistos.jpg"
     }
 ]

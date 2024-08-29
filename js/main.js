@@ -243,5 +243,11 @@ fetch('./data.json')
         setTimeout(() => {
             alimentosContainer.innerHTML = '';
             alimentos.forEach(el => crearCard(el));
-        }, 2000);
+        }, 1000);
     });
+
+// productos a agregar: banana, aceitunas, twistos, queso, mogul, LISTO
+// SEO: poner en los encabezados los hashtag y la descripción. Ver peso de imágenes.
+// Mejora: Fijar la barra para que cuando se baje se pueda ir viendo el acumulado sin tener que subir cada vez.
+// Mejora: compatibilidad con iphone
+// version 2 (acumnular horas): la idea es que cuando tenés 1 hora ya cerrada, tengas un botón en el sweet alert para "agregar al plan de carrera". Al hacer esto, al final de la página se crea una sección de "plan de carrera" con una tabla que tiene las horas como filas y en la columna lateral el lsitado de alimentos. Asimismo un botón de eliminar hora con un sweet alert de confirmación. Asimismo, al agregar horas al plan, un sweet alert pregunta si desea agregar otra hora igual o limpiar el carrito y crear una hora nueva.LAs horas del plan de carrera también se guardan en local Storage. Debe haber un botón para limpiar todo el plan y así poder empezar desde 0 (con un sweet alert de confirmación). Un potón para guardar que permita bajar un pdf con el plan de horas. En la barra debería haber un navegador para ir directo al PLan de Horas del final. Agregar 

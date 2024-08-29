@@ -33,6 +33,12 @@ header p {
     background-color: #f8f9fabb;
     display: flex;
     align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin-top: 100px;
 }
 
 #total-carbohidratos {
@@ -64,12 +70,13 @@ header p {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    margin-top: 70px;
 }
 
 .card {
     max-width: 300px;
     margin: 5px !important;
-    background-color: rgba(248, 245, 245, 0.6);
+    background-color: rgba(248, 245, 245, 0.8);
 }
 
 .card-body {
