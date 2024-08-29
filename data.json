@@ -72,7 +72,7 @@
     {
         "id": 11,
         "nombre": "Queso feta", 
-        "carbos": 10,
+        "carbos": 0.3,
         "um": "1 feta de 10 gr",
         "img": "img/quesoFeta.webp"
     },
