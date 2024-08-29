@@ -38,7 +38,7 @@ header p {
     width: 100%;
     z-index: 1000;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    margin-top: 105px;
+    margin-top: 110px;
 }
 
 #total-carbohidratos {
@@ -70,7 +70,7 @@ header p {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    margin-top: 70px;
+    margin-top: 80px;
 }
 
 .card {
